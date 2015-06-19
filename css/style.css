@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,latin-ext);
 
 html {
-    font: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -78,8 +78,8 @@ p {
     align-items: center;
 }
 
-.margin {
-    margin-bottom: 10px
+.main {
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 992px) {
