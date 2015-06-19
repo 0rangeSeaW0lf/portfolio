@@ -1,13 +1,65 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Hello World</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Build a Portfolio Site</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <p>Hello World!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate, dolor, dignissimos, voluptas quaerat laboriosam quis iste repellat accusantium ipsum nostrum modi ducimus quas nulla necessitatibus iure minus nihil similique?5</p>
+        <header class="header">
+            <div class="container">
+                <div class="row inner-header">
+                    <div class="col-xs-12 col-sm-4 logo-container">
+                        <img src="http://loremflickr.com/g/100/100/logo/all" alt="iPhone" class="img-responsive logo">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-2 text-right text-uppercase bio">
+                        <h1>José Moreno</h1>
+                        <h3>Web Application Engineer</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <hr class="divider">
+                    </div>
+                </div>
+                <div class="row">
+                    <picture class="col-xs-12">
+                        <img src="http://loremflickr.com/g/1920/1080/technology,mobile,gadgets/all" alt="Flickr Pictures tagged with the words technology, mobile and gadgets" class="hero img-responsive">
+                    </picture>
+                </div>
+                <section class="row text-center main">
+                    <div class="col-xs-12 featured-work text-left">
+                        <h2>Featured Work</h2>
+                    </div>
+                    <article class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="http://loremflickr.com/g/1366/768/apple,iphone,6,ios/all" alt="iPhone" class="img-responsive ">
+                        <h3 class="text-uppercase">iPhone</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="http://www.apple.com/iphone/" target="_blank">http://www.apple.com/iphone</a>
+                    </article>
+                    <article class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="http://loremflickr.com/g/1366/768/google,nexus,6,android/all" alt="Google Nexus 6" class="img-responsive ">
+                        <h3 class="text-uppercase">Nexus</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://www.google.com/nexus/6/" target="_blank">https://www.google.com/nexus/6/</a>
+                    </article>
+                    <article class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
+                        <img src="http://loremflickr.com/g/1366/768/nokia,lumia,930/all" alt="Flickr Pictures tagged with the words Nokia and Lumia" class="img-responsive ">
+                        <h3 class="text-uppercase">Lumia</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="http://www.microsoft.com/en/mobile/phones/lumia/" target="_blank">http://www.microsoft.com/en/mobile/phones/lumia/</a>
+                    </article>
+                </section>
+            </div>
+        </main>
     </body>
 </html>
