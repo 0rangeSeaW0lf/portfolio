@@ -78,8 +78,8 @@ p {
     align-items: center;
 }
 
-.margin {
-    margin-bottom: 10px
+.main {
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 992px) {
